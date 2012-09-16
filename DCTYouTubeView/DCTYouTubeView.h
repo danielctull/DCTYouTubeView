@@ -6,8 +6,10 @@
 //  Copyright (c) 2012 Daniel Tull. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface DCTYouTubeView : NSObject
+@interface DCTYouTubeView : UIView
+
+@property (nonatomic, copy) NSString *videoID;
 
 @end

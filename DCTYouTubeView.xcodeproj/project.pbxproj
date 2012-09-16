@@ -28,7 +28,6 @@
 /* Begin PBXFileReference section */
 		246BE7501605FC840046611B /* libDCTYouTubeView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDCTYouTubeView.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		246BE7531605FC840046611B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		246BE7571605FC840046611B /* DCTYouTubeView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DCTYouTubeView-Prefix.pch"; sourceTree = "<group>"; };
 		246BE7581605FC840046611B /* DCTYouTubeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCTYouTubeView.h; sourceTree = "<group>"; };
 		246BE75A1605FC840046611B /* DCTYouTubeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCTYouTubeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,17 +74,8 @@
 			children = (
 				246BE7581605FC840046611B /* DCTYouTubeView.h */,
 				246BE75A1605FC840046611B /* DCTYouTubeView.m */,
-				246BE7561605FC840046611B /* Supporting Files */,
 			);
 			path = DCTYouTubeView;
-			sourceTree = "<group>";
-		};
-		246BE7561605FC840046611B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				246BE7571605FC840046611B /* DCTYouTubeView-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +187,6 @@
 			buildSettings = {
 				DSTROOT = /tmp/DCTYouTubeView.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DCTYouTubeView/DCTYouTubeView-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -209,7 +198,6 @@
 			buildSettings = {
 				DSTROOT = /tmp/DCTYouTubeView.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DCTYouTubeView/DCTYouTubeView-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
